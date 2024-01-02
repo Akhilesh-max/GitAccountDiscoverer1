@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.app {
+  margin: 0;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.search-form {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.search-form input,
+.search-form button {
+  width: 280px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.search-form input {
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.search-form button {
+  margin-left: 10px;
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
